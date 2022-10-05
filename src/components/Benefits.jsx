@@ -11,14 +11,14 @@ const Benefits = () => {
         <div>
             <img src={seguro} alt="" />
             <h3>Seguro</h3>
-            <p>Ten la tranquilidad de que la información que nos envies estará totalmente segura.</p>
+            <p>Ten la tranquilidad de que la información que nos envíes estará totalmente segura.</p>
         </div>
       </div>
       <div className='benefit-card'>
         <div>
             <img src={facil} alt="" />
             <h3>Facil</h3>
-            <p>Aplica al credito desde tu PC, tableta o teléfono móvil, es online y te tomará menos de 5 min.</p>
+            <p>Aplica al crédito desde tu PC, tableta o teléfono móvil, es online y te tomará menos de 5 min.</p>
         </div>
       </div>
       <div className='benefit-card'>

@@ -19,7 +19,7 @@ const SliderBanner = () => {
           <div className="text-banner">
             <h2>TU PRESTAMO <span>IDEAL</span></h2>
             <p className="text-banner-1">Desde $1000 hasta $5000</p>
-            <p>Con aprobacion en 24 horas y requisitos básicos.</p>
+            <p>Con aprobación en 24 horas y requisitos básicos.</p>
             <button className="button">Solicitalo ahora</button>
             
           </div>

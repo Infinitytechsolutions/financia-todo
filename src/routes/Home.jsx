@@ -40,7 +40,7 @@ const Home = () => {
                 <div>
                     <p>Tu préstamo online</p>
                     <h2>En 3 sencillos pasos</h2>
-                    <p>Solicitar un préstamo en Panamá con Financia Todo es muy sencillo. Aplica en línea sin necesidad de desplazarte!</p>
+                    <p>Solicitar un préstamo en Panamá con Financiatodo es muy sencillo. Aplica en línea sin necesidad de desplazarte!</p>
                     <button className='button'>¡Aplica YA!</button>
                     
                 </div>
@@ -59,7 +59,7 @@ const Home = () => {
                 <div className='step-3'>
                     <h2>3.</h2>
                     <h3>Obtienes tu dinero</h3>
-                    <p>Sabemos que en una emergencia financiera necesitas una solución expedita. Es por eso nos esforzamos por dar aprobaciones casi inmediatas. Al aprobar tu préstamo, nos comunicamos contigo al instante. </p>
+                    <p>Sabemos que en una emergencia financiera necesitas una solución expedita. Es por eso que nos esforzamos por dar aprobaciones casi inmediatas. Al aprobar tu préstamo, nos comunicamos contigo al instante. </p>
                 </div>
             </div>
         </div>
