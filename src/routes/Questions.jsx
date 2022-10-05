@@ -3,10 +3,10 @@ import SocialMedia from '../components/SocialMedia'
 import {AiOutlineArrowDown,AiOutlineArrowUp} from "react-icons/ai"
 
 const Questions = () => {
-    const [isOpenQ1,setIsOpenQ1] = useState(false)     
-    const [isOpenQ2,setIsOpenQ2] = useState(false)  
-    const [isOpenQ3,setIsOpenQ3] = useState(false)  
-    const [isOpenQ4,setIsOpenQ4] = useState(false)  
+    const [isOpenQ1,setIsOpenQ1] = useState(true)     
+    const [isOpenQ2,setIsOpenQ2] = useState(true)  
+    const [isOpenQ3,setIsOpenQ3] = useState(true)  
+    const [isOpenQ4,setIsOpenQ4] = useState(true)  
     const q1Ref = useRef()
     const q2Ref = useRef()
     const q3Ref = useRef()
