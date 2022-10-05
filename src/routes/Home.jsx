@@ -1,10 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Benefits from '../components/Benefits'
-import FloatingCard from '../components/FloatingCard'
 import Requirements from '../components/Requirements'
-
 import SliderBanner from '../components/SliderBanner'
-import beneficios from "../images/beneficios.png"
 
 const Home = () => {
 
