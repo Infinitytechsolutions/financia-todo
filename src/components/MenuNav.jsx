@@ -34,14 +34,14 @@ const MenuNav = () => {
 
   return (
     <>
-        <div class={`hambur ${isOpen ? "active" : ""}`} onClick={setMenu}>
-            <div class="hambur-1 menu-hambur"></div>
-            <div class="hambur-2 menu-hambur"></div>
-            <div class="hambur-3 menu-hambur"></div>
+        <div className={`hambur ${isOpen ? "active" : ""}`} onClick={setMenu}>
+            <div className="hambur-1 menu-hambur"></div>
+            <div className="hambur-2 menu-hambur"></div>
+            <div className="hambur-3 menu-hambur"></div>
         </div>
         <div className={`menu-navbar-mobile ${animation}`}  ref={menuRef}>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/">Inicio</NavLink>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/">Solicitar Crédito</NavLink>
+            <NavLink className='nav_menu_option' onClick={setMenu} to="/">Solicitar Prestamo</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/sobre-nosotros">Sobre Nosotros</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/">Contáctanos</NavLink>

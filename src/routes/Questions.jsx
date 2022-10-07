@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import SocialMedia from '../components/SocialMedia'
 import {AiOutlineArrowDown,AiOutlineArrowUp} from "react-icons/ai"
 
@@ -11,23 +11,6 @@ const Questions = () => {
     const q2Ref = useRef()
     const q3Ref = useRef()
     const q4Ref = useRef()
-
-    // useEffect(()=>{
-    //     q1Ref.current.classList.toggle("is-open")
-    //     console.log(questions[0])
-    // },[isOpenQ1])
-    // useEffect(()=>{
-    //     q2Ref.current.classList.toggle("is-open")
-    //     console.log(questions[1])
-    // },[isOpenQ2])
-    // useEffect(()=>{
-    //     q3Ref.current.classList.toggle("is-open")
-    //     console.log(questions[2])
-    // },[isOpenQ3])
-    // useEffect(()=>{
-    //     q4Ref.current.classList.toggle("is-open")
-    //     console.log(questions[3])
-    // },[isOpenQ4])
 
   return (
     <div className='container-questions'>
