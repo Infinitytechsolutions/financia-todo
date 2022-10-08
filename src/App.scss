@@ -1063,6 +1063,99 @@
   }
 }
 
+.container-contact{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  
+  
+  .contact-left{
+    width: 70%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    h2{
+      position: relative;
+      border-left:5px solid var(--orange);
+      z-index: 999;
+      color: var(--white);
+      width: 70%;
+      margin-left: 70px;
+      padding:10px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 30px;
+    }
+    p{
+      position: relative;
+      z-index: 999;
+      color: var(--white);
+      width: 70%;
+      margin-left: 70px;
+    }
+    .button{
+      margin-left: 70px;
+    }
+    .imgBG{
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      
+    }
+    &::after{
+      content: "";
+      // height: 80vh;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.74);
+    }
+  }
+  .contact-right{
+    width: 30%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 40px;
+
+    h3{
+      text-transform: uppercase;
+    }
+
+    svg{
+      color: var(--brown) !important;
+    }
+
+    .contact-social-icons{
+      svg{
+        color: var(--orange) !important;
+        margin-right: 10px;
+      }
+    }
+    .contact-right-div{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      div{
+        h4{
+          padding-bottom: 8px;
+        }
+      }
+
+     
+    }
+  }
+}
+
 
 //Media para laptops
 @media only screen and (min-width:"1023px") and (max-width:"1500px"){
@@ -1125,6 +1218,7 @@
     margin-top: 25px;
   }
 
+  
 }
 
 //Media para PC escritorios y monitores mas grandes
@@ -1473,6 +1567,43 @@
     text-align: center;
     button{
       margin: 0 auto;
+    }
+  }
+
+  .container-contact{
+    flex-direction: column;
+    gap: 25px;
+    height: min-content;
+    
+    .contact-left{
+      width: 100%;
+      text-align: justify;
+      height: min-content;
+      padding: 70px 0;
+      h2{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+      }
+      p{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+      }
+      button{
+        margin: 0 auto !important;
+      }
+    }
+    .contact-right{
+      width: 100%;
+      margin: 30px 0;
+      h3{
+        text-align: center;
+        line-height: 23px;
+      }
+      .contact-social{
+        margin: 0 auto;
+      }
     }
   }
 }

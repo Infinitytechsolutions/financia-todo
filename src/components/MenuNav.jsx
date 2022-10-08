@@ -42,7 +42,7 @@ const MenuNav = () => {
             <NavLink className='nav_menu_option' onClick={setMenu} to="/solicitar-prestamo">Solicitar Prestamo</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/sobre-nosotros">Sobre Nosotros</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/">Contáctanos</NavLink>
+            <NavLink className='nav_menu_option' onClick={setMenu} to="/contactanos">Contáctanos</NavLink>
         </div>
     </>
   )

@@ -11,7 +11,7 @@ const Navbar = () => {
         <NavLink className='nav_menu_option' to="/solicitar-prestamo">Solicitar Prestamo</NavLink>
         <NavLink className='nav_menu_option' to="/sobre-nosotros">Sobre Nosotros</NavLink>
         <NavLink className='nav_menu_option' to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
-        <NavLink className='nav_menu_option' to="/">Contáctanos</NavLink>
+        <NavLink className='nav_menu_option' to="/contactanos">Contáctanos</NavLink>
       </ul>
     </div>
   )

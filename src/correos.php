@@ -1,5 +1,5 @@
 <? php
-    $destinatario = "edgarbp.dev@gmail.com";
+    $destinatario = 'edgarbp.dev@gmail.com';
     $asunto = 'Solicitud de Prestamo ' . $nombre . $apellido;
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
@@ -11,8 +11,8 @@
     $salario = $_POST['salario'];
     $cantidad = $_POST['cantidad'];
 
-    $header = "Datos suministrados por el cliente:"
+    $header = "Datos suministrados por el cliente:";
     $mensajeCompleto = "Nombre: " . $nombre . "\nApellido: " . $apellido . "\nApellido: " . $apellido . "\nDocumento: " . $documento . "\ncorreo: " . $correo . "\nTeléfono: " . $telefono . "\nEmpresa: " . $empresa . "\nAntiguedad: " . $antiguedad . "\nSalario: " . $salario . "\nCantidad Solicitada: " . $cantidad ;
 
-    mail($destinatario, $asunto, $mensajeCompleto, $header)
+    mail($destinatario, $asunto, $mensajeCompleto, $header);
 ?>
