@@ -5,7 +5,7 @@ import logo from "../images/logo-financiatodo.png"
 const NavbarMobile = () => {
   return (
     <div className='navbar-mobile'>
-      <img className='logo-mobile'  src={logo} alt="" />
+      <img className='logo-mobile'  src={logo} alt="Logo de financiatodo" />
       <MenuNav/>
 
     </div>

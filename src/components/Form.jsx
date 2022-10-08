@@ -6,15 +6,15 @@ import {FaWhatsapp} from "react-icons/fa"
 const Form = () => {
 
     const handleSubmit = (e)=>{
+      e.preventDefault();
         try { 
           Swal.fire({
             title: 'Correo enviado',
             icon: 'success',
-           
             showConfirmButton: false,
             timer:1500,
             timerProgressBar:true,
-            color:"#302b63"
+            color:"#6c6c6c"
             
           })
         } catch (error) {
@@ -26,7 +26,7 @@ const Form = () => {
             showConfirmButton: false,
             timer:1500,
             timerProgressBar:true,
-            color:"#302b63"
+            color:"#6c6c6c"
           })
         }
       }
@@ -40,7 +40,7 @@ const Form = () => {
         
       </div>
       <div>
-        <form className='contact-form' action="" onSubmit={handleSubmit}>
+        <form className='contact-form' action="correos.php" method='POST' onSubmit={handleSubmit}>
         <Input type="text" name="nombre" label="Nombre" />
         <Input type="text" name="apellido" label="Apellido" />
         <Input type="text" name="documento" label="Documento" />

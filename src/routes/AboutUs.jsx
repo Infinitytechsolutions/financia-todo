@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className='about-us'>
       <div className='about-us-img'>
-        <img src={logoFinanciatodo} alt="" />
+        <img src={logoFinanciatodo} alt="Logo de financiera financiatodo" />
       </div>
       <div className='about-us-text'>
         <p>Financiatodo.com hace parte de uno de los grupos financieros más reconocidos en Panamá. ¿Necesitas reparar tu vehículo? ¿Te enfermaste y tienes gastos médicos? ¿O tienes algo que pagar que no tenías en cuenta? Si tienes alguna de estas emergencias financieras, no te preocupes: simplemente reacciona. Financia Todo te resuelve con tan sólo una llamada.</p>

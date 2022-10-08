@@ -23,7 +23,7 @@ const SliderBanner = () => {
             <button className="button">Solicitalo ahora</button>
             
           </div>
-          <img src={banner1} alt="" />
+          <img src={banner1} alt="Imagen referencia financiatodo prestamos online" />
           
         </div>
         <div className="slider-banner test">

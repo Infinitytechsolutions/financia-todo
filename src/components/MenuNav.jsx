@@ -5,10 +5,8 @@ const MenuNav = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     const [animation, setAnimation] = useState("")
-
     const menuRef = useRef("")
     
-
     function disableScroll() {
         document.body.classList.add("stop-scrolling");
       }

@@ -6,7 +6,6 @@ import SliderBanner from '../components/SliderBanner'
 const Home = () => {
 
     const [state,setState] = useState("beneficios")
-
     const benefitsRef = useRef("")
     const requirementsRef = useRef("")
 
@@ -29,11 +28,7 @@ const Home = () => {
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
                 </svg>
             </div>  
-            {/* <div className='section-2'>
-                <div>
-                    
-                </div>
-            </div> */}
+          
         </div>
         <div className='section-3' >
             <div className='text-steps'>
@@ -42,7 +37,6 @@ const Home = () => {
                     <h2>En 3 sencillos pasos</h2>
                     <p>Solicitar un préstamo en Panamá con Financiatodo es muy sencillo. Aplica en línea sin necesidad de desplazarte!</p>
                     <button className='button'>¡Aplica YA!</button>
-                    
                 </div>
             </div>
             <div className='steps'>
@@ -64,7 +58,6 @@ const Home = () => {
             </div>
         </div>
         <div className='section_4'>
-
             <div className='section_4_switch'>
                 <div className='benefits' ref={benefitsRef} onClick={()=>{setState("beneficios")}}>
                     <h3>Beneficios</h3>
@@ -74,51 +67,9 @@ const Home = () => {
                 </div>
             </div>
             {state==="beneficios" ? <Benefits /> : <Requirements />}
-            
-            {/* <div className="custom-shape-divider-top-1664748202">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
-            </svg>
-            </div> */}
-
-        </div>
-        {/* <div className='section-4'>
-            <div className='benefits-img'>
-                <img src={beneficios} alt="" />
-            </div>
-            <div className='benefits'>
-                <h2>¿Por qué elegirnos?</h2>
-                
-                <div>
-                    <h3>Seguro</h3>
-                    <p>Ten la tranquilidad de que la información que nos envies estará totalmente segura.</p>
-                </div>
-                <div>
-                    <h3>Facil</h3>
-                    <p>Aplica al credito desde tu PC, tableta o teléfono móvil, es online y te tomará menos de 5 min.</p>
-                </div>
-                <div>
-                    <h3>Rápido</h3>
-                    <p>Analizaremos y en un lapso no mayor a 24 horas, tendrás respuesta.</p>
-                </div>
-                <div>
-                    <h3>Responsable</h3>
-                    <p>Somos una financiera panameña, acreditada y regulada por M.I.C.I.</p>
-                </div>
-                <div>
-                    <h3>Comodo</h3>
-                    <p>Aplica donde y cuando quieras a través de tu teléfono celular o PC.</p>
-                </div>
-            </div>
-        </div> */}
-
-     
+        </div>   
 
         <div className='section-5'>
-            {/* <div className='section-5-text'>
-                <h2>Estamos para a ayudarte</h2>
-                <p>Aplica de forma online, o comunícate con nosotros para una atención personalizada.</p>
-            </div> */}
             <div className='section-5-contact'>
                 <div>
                     <h3>Aplicar para el prestamo</h3>
