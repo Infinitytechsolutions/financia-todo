@@ -5,22 +5,22 @@ import req3 from "../images/req-3-2.png"
 
 const Requirements = () => {
   return (
-    <div className='requeriments-cards' data-aos="fade-up" data-aos-duration="1000">
-      <div className='requeriment-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+    <div className='requeriments-cards' data-aos="fade-up" data-aos-duration="1500">
+      <div className='requeriment-card'>
         <div>
             <img src={req1} alt="" />
             <h3>FICHA DEL SEGURO SOCIAL</h3>
             <p>Con fecha no mayor a los 3 meses.</p>
         </div>
       </div>
-      <div className='requeriment-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+      <div className='requeriment-card'>
         <div>
             <img src={req2} alt="" />
             <h3>CÉDULA O PASAPORTE</h3>
             <p>Documento Nacional de Identidad.</p>
         </div>
       </div>
-      <div className='requeriment-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
+      <div className='requeriment-card'>
         <div>
             <img src={req3} alt="" />
             <h3>CARTA LABORAL</h3>
