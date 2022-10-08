@@ -39,7 +39,7 @@ const MenuNav = () => {
         </div>
         <div className={`menu-navbar-mobile ${animation}`}  ref={menuRef}>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/">Inicio</NavLink>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/">Solicitar Prestamo</NavLink>
+            <NavLink className='nav_menu_option' onClick={setMenu} to="/solicitar-prestamo">Solicitar Prestamo</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/sobre-nosotros">Sobre Nosotros</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
             <NavLink className='nav_menu_option' onClick={setMenu} to="/">Contáctanos</NavLink>
