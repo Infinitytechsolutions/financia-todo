@@ -14,8 +14,8 @@ const AboutUs = () => {
       </div>
        <SocialMedia />
        <div className='about-us-contact'>
-        <p>TELEFONO: <span>+507 000-0000</span></p>
-        <p>MAIL: <span>tuprestamo@financiatodo.com</span> </p>
+        <p>TELEFONO: <span>+507 208-1216</span></p>
+        <p>MAIL: <span>info@financiatodo.com</span> </p>
        </div>
     </div>
   )

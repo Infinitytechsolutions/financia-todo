@@ -56,7 +56,7 @@ const Form = () => {
         
         <div className='contact'>
         <p className='contact-ws'>Tambien puedes realizar la solicitud a través de WhatsApp. </p>
-        <button className='button wsapp'>Contactar<FaWhatsapp size="25px" /></button>
+        <a href="https://wa.me/50764714369?text=Hola%20Financiatodo!%20Quiero%20solicitar%20un%20prestamo.%20"><button className='button wsapp'>Contactar<FaWhatsapp size="25px" /></button></a>
         </div>
       </div>
       

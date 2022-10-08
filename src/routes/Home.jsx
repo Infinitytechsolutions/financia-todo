@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import Benefits from '../components/Benefits'
 import Requirements from '../components/Requirements'
 import SliderBanner from '../components/SliderBanner'
@@ -36,7 +37,7 @@ const Home = () => {
                     <p>Tu préstamo online</p>
                     <h2>En 3 sencillos pasos</h2>
                     <p>Solicitar un préstamo en Panamá con Financiatodo es muy sencillo. Aplica en línea sin necesidad de desplazarte!</p>
-                    <button className='button'>¡Aplica YA!</button>
+                    <Link to="/solicitar-prestamo"><button className='button'>¡Aplica YA!</button></Link> 
                 </div>
             </div>
             <div className='steps'>
@@ -74,12 +75,14 @@ const Home = () => {
                 <div>
                     <h3>Aplicar para el prestamo</h3>
                     <p>¡Si lo quieres, lo obtienes!</p>
-                    <button className='button'>Solicitar</button>
+                    <NavLink to="/solicitar-prestamo"><button className='button'>Solicitar</button></NavLink>
+                    
                 </div>
                 <div>
                     <h3>Llámanos</h3>
-                    <p>+507 000-0000</p>
-                    <button className='button'>Contactar</button>
+                    <p>+507 208-1216</p>
+                    <a href="tel:+5072081216"><button className='button'>Llamar</button>
+                    </a>
                 </div>
             </div>
         </div>

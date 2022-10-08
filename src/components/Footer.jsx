@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='footer-mid'>
             <h3>Enlaces</h3>
             <NavLink className="footer-menu" to="/">Inicio</NavLink>
-            <NavLink className="footer-menu" to="/">Solicitar Prestamo</NavLink>
+            <NavLink className="footer-menu" to="/solicitar-prestamo">Solicitar Prestamo</NavLink>
             <NavLink className="footer-menu" to="/preguntas-frecuentes">Preguntas Frecuentes</NavLink>
             <NavLink className="footer-menu" to="/sobre-nosotros">Sobre Nosotros</NavLink>
         </div>

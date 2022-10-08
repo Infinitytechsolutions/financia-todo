@@ -8,6 +8,7 @@ import ContactForm from './routes/ContactForm';
 import ContactUs from './routes/ContactUs';
 import Home from './routes/Home';
 import Questions from './routes/Questions';
+import {FaWhatsappSquare} from "react-icons/fa"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contactanos" element={<ContactUs />} />
       </Routes>
       <Footer />
+      <div className='ws-fixed'><a href="https://wa.me/50764714369?text=Hola%20Financiatodo!%20Quiero%20solicitar%20un%20prestamo.%20"><FaWhatsappSquare size="50px" color='#1bd741'/></a></div>
     </>
   );
 }

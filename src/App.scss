@@ -626,6 +626,7 @@
         align-items: center;
         gap: 15px;
         color: var(--very-dark-gray);
+        
       }
     
   }
@@ -1097,6 +1098,7 @@
       color: var(--white);
       width: 70%;
       margin-left: 70px;
+      line-height: 23px;
     }
     .button{
       margin-left: 70px;
@@ -1156,6 +1158,29 @@
   }
 }
 
+.ws-fixed{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--white);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  z-index: 9999;
+
+  &:hover{
+    animation: ws-animation 0.7s infinite;
+  }
+}
+
+@keyframes ws-animation{
+  0%{
+    transform: scale(1.0);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
 
 //Media para laptops
 @media only screen and (min-width:"1023px") and (max-width:"1500px"){
@@ -1478,6 +1503,7 @@
     gap: 30px;
       div{
         width: 90% !important;
+        
       }
   }
 
