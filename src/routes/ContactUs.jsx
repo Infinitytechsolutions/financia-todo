@@ -11,7 +11,7 @@ const ContactUs = () => {
             <img className='imgBG' src={contactImg} alt="Imagen de contacto financiatodo" />
             <h2>Contáctanos</h2>
             <p>En Financiatodo te brindamos atención personalizada para resolver todas tus dudas y que puedas obtener tu préstamo en poco tiempo. ¡Te esperamos! </p>
-            <button className='button'>Contactar ahora</button>
+            <a href="https://wa.me/50764714369?text=Hola%20Financiatodo!%20Quiero%20solicitar%20un%20prestamo.%20"><button className='button'>Contactar ahora</button></a>
       </div>
       <div className='contact-right'>
         <h3>Información de Contacto</h3>
