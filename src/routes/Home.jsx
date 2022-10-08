@@ -58,7 +58,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='section_4' data-aos="fade-in" data-aos-duration="1500" data-aos-easing="linear">
+        <div className='section_4' data-aos="fade-up" data-aos-duration="1500" >
             <div className='section_4_switch'>
                 <div className='benefits' ref={benefitsRef} onClick={()=>{setState("beneficios")}}>
                     <h3>Beneficios</h3>

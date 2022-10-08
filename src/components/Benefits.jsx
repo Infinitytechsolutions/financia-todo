@@ -6,29 +6,29 @@ import responsable from "../images/beneficio-responsable-2.png"
 
 const Benefits = () => {
   return (
-    <div className='benefits-cards' data-aos="fade-up" data-aos-duration="1000"> 
-      <div className='benefit-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+    <div className='benefits-cards' data-aos="fade-up" data-aos-duration="1500"> 
+      <div className='benefit-card'  data-aos-delay="200">
         <div>
             <img src={seguro} alt="" />
             <h3>Seguro</h3>
             <p>Ten la tranquilidad de que la información que nos envíes estará totalmente segura.</p>
         </div>
       </div>
-      <div className='benefit-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+      <div className='benefit-card'  data-aos-delay="500">
         <div>
             <img src={facil} alt="" />
             <h3>Facil</h3>
             <p>Aplica al crédito desde tu PC, tableta o teléfono móvil, es online y te tomará menos de 5 min.</p>
         </div>
       </div>
-      <div className='benefit-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
+      <div className='benefit-card'  data-aos-delay="800">
         <div>
             <img src={rapido} alt="" />
             <h3>Rápido</h3>
             <p>Analizaremos y en un lapso no mayor a 24 horas, tendrás respuesta.</p>
         </div>
       </div>
-      <div className='benefit-card' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100">
+      <div className='benefit-card'  data-aos-delay="1100">
         <div>
             <img src={responsable} alt="" />
             <h3>Responsable</h3>
