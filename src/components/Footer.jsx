@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='footer-left'>
             <img src={logo} alt="Logo de Financia Todo Panama" />
             <SocialMedia />
-            <p>Préstamos Personales Panamá© 2019 Todos los derechos reservados.</p>
+            <p>Financiatodo © Todos los derechos reservados.</p>
         </div>
         <div className='footer-mid'>
             <h3>Enlaces</h3>
