@@ -2,6 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import banner1 from "../images/banner-1.png"
+import { Link } from 'react-router-dom'
 
 const SliderBanner = () => {
     const settings = {
@@ -20,7 +21,7 @@ const SliderBanner = () => {
             <h2>TU PRESTAMO <span>IDEAL</span></h2>
             <p className="text-banner-1">Desde $1000 hasta $5000</p>
             <p>Con aprobación en 24 horas y requisitos básicos.</p>
-            <button className="button">Solicitalo ahora</button>
+            <Link to="/solicitar-prestamo"><button className="button">Solicitalo ahora</button></Link>
             
           </div>
           <img src={banner1} alt="Imagen referencia financiatodo prestamos online" data-aos="fade-left" data-aos-duration="1500"/>
