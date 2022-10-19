@@ -19,7 +19,7 @@ const Questions = () => {
             <h3 >¿Cómo solicito un préstamo?</h3>
             {!isOpenQ1?<AiOutlineArrowDown size="22px"/> : <AiOutlineArrowUp size="22px"/>}
         </div>
-        <p>Solicitar un préstamo con nosotros es muy sencillo. Puedes aplicar en línea en nuestra página web: https://www.financiatodo.com/credito-aplicacion (en nuestro menú de Cómo Funciona te explicamos detalladamente los pasos para aplicar) Otra opción que tienes es de llamarnos al 377-2929. Nuestro horario de atención al público es de Lunes a Viernes, 8am a 7pm, y los Sábados de 9am a 3pm.</p>
+        <p>Solicitar un préstamo con nosotros es muy sencillo. Puedes aplicar en línea en nuestra página web: https://www.financiatodo.com/solicitar-prestamo (en nuestro menú de Cómo Funciona te explicamos detalladamente los pasos para aplicar) Otra opción que tienes es de llamarnos al +507 208-1216. Nuestro horario de atención al público es de Lunes a Viernes, 8am a 7pm, y los Sábados de 9am a 3pm.</p>
       </div>
       <div className={`question ${!isOpenQ2? "" : "is-open"}`} onClick={()=>setIsOpenQ2(!isOpenQ2)} >
         <div className='top-question' >
@@ -46,7 +46,7 @@ const Questions = () => {
                 <li>Cédula</li>
                 <li>ficha</li>
                 <li>2 últimos talonarios de pago</li>
-                <li>carta laboral (a nombre de Financia Todo)</li>
+                <li>carta laboral (a nombre de FinanciaTodo)</li>
             </ol>
         </div>
       </div>
