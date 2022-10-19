@@ -1246,6 +1246,24 @@
   
 }
 
+@media only screen and (min-width:"1023px") and (max-width:"1200px"){
+
+  .footer{
+    gap: 10px;
+  }
+  .footer-right{
+    grid-column: 3 / -1;
+  }
+  .footer-floating-card{
+    grid-column: 1;
+    // margin-right: 40px;
+  }
+  .card{
+    position: relative;
+    margin-left: 25px;
+  }
+}
+
 //Media para PC escritorios y monitores mas grandes
 @media only screen and (min-width:1501px){
   
@@ -1440,16 +1458,23 @@
 
   .card{
     position: relative;
-    width: 90%;
+    width: 320px;
     font-size: 16px;
     height: 70px;
-    margin:0 auto 50px auto;
+    margin:0 auto 50px 25px;
     h2{
       font-size: 16px;
-      padding: 15px 0;
+      padding: 15px 15px;
+      
     }
     p{
       font-size: 14px;
+      padding: 0 15px;
+    }
+    button{
+      position: relative;
+      top: 20px;
+      left: 15px;
     }
   }
 
