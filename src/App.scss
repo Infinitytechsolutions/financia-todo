@@ -29,13 +29,13 @@
 .navbar-desktop{
   display: flex;
   justify-content: space-between;
-  padding: 30px 150px;
+  padding: 10px 150px;
   background-color: var(--white);
   align-items: center;
   border-bottom: 1px solid var(--orange);
     
     img{
-      height: 50px;
+     height: 100px !important;
     }
     li{
       cursor: pointer;
@@ -48,9 +48,23 @@
   gap: 2em;
   font-size: 16px;
   font-family: "Epilogue", sans-serif;
+  align-items: center;
 
     a{
       color: var(--very-dark-gray) !important;
+    }
+
+    .social-media{
+      display: flex;
+      gap: 10px;
+      // margin-right: 5px;
+      a{
+        color: var(--brown) !important;
+        &:hover{
+          color: var(--orange) !important;
+          transition: 0.5s;
+        }
+      }
     }
 }
 
@@ -124,6 +138,7 @@
   width: 100%;
   padding: 0 150px;
   position: relative;
+  
   
   .slider-banner{
     height: 500px;
@@ -1186,7 +1201,7 @@
 @media only screen and (min-width:"1023px") and (max-width:"1500px"){
 
   .navbar-desktop{
-    padding: 30px 50px; 
+    padding: 10px 50px; 
     justify-content: space-between;
     font-size: 14px;
 
@@ -1198,6 +1213,10 @@
     img{
       height: 40px;
     }
+  }
+
+  .slider-banner{
+    height: 460px !important;
   }
 
   .section-3{
@@ -1246,7 +1265,11 @@
   
 }
 
-@media only screen and (min-width:"1023px") and (max-width:"1200px"){
+@media only screen and (min-width:"1023px") and (max-width:"1600px"){
+
+  .slider-container{
+    padding: 0 100px;
+  }
 
   .footer{
     gap: 10px;
@@ -1262,6 +1285,55 @@
     position: relative;
     margin-left: 25px;
   }
+
+  .step-1{
+    position: relative;
+    &::before{
+      content: "";
+      height: 73px !important;
+      border-radius: 10px;
+      width: 5px;
+      top: -76px !important;
+      left: 50%;
+      background: var(--orange);
+      opacity: 0.8;
+      position: absolute;
+    }
+  }
+
+  .step-2{
+    position: relative;
+    top: 50px;
+    &::before{
+      content: "";
+      height: 140px;
+      width: 5px;
+      top: -56.5% !important;
+      border-radius: 10px;
+      left: 50%;
+      opacity: 0.8;
+      background: var(--orange);
+      position: absolute;
+    }
+  }
+
+  .step-3{
+    position: relative;
+    top: 100px;
+    &::before{
+      content: "";
+      height: 225px !important;
+      width: 5px;
+      top: -85.3% !important;
+      left: 50%;
+      border-radius: 5px;
+      opacity: 0.8;
+      background: var(--orange);
+      position: absolute;
+    }
+  }
+
+  
 }
 
 //Media para PC escritorios y monitores mas grandes
@@ -1318,6 +1390,18 @@
 
 //Media para dispositivos moviles 
 @media only screen and (max-width:"768px"){
+
+  .footer-floating-card{
+    .card{
+      width: 250px !important;
+      h2{
+        font-size: 14px;
+      }
+      p{
+        font-size: 13px;
+      }
+    }
+  }
 
   .navbar-mobile{
     display: flex;
@@ -1657,6 +1741,8 @@
       }
     }
   }
+
+
 }
 
 

@@ -1,12 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from "../images/logo.png"
+import logoFinanciatodo from "../images/logo-financiatodo.png"
+import SocialMedia from './SocialMedia'
 
 const Navbar = () => {
   return (
     <div className='navbar-desktop'>
-        <img src={logo} alt="Financiera Financia Todo"/>
+        <img src={logoFinanciatodo} alt="Financiera Financia Todo"/>
       <ul className='nav_menu'>
+        <SocialMedia />
         <NavLink className='nav_menu_option' to="/">Inicio</NavLink>
         <NavLink className='nav_menu_option' to="/solicitar-prestamo">Solicitar Prestamo</NavLink>
         <NavLink className='nav_menu_option' to="/sobre-nosotros">Sobre Nosotros</NavLink>
