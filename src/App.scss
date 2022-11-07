@@ -1262,30 +1262,6 @@
     margin-top: 25px;
   }
 
-  
-}
-
-@media only screen and (min-width:"1023px") and (max-width:"1600px"){
-
-  .slider-container{
-    padding: 0 100px;
-  }
-
-  .footer{
-    gap: 10px;
-  }
-  .footer-right{
-    grid-column: 3 / -1;
-  }
-  .footer-floating-card{
-    grid-column: 1;
-    // margin-right: 40px;
-  }
-  .card{
-    position: relative;
-    margin-left: 25px;
-  }
-
   .step-1{
     position: relative;
     &::before{
@@ -1293,7 +1269,7 @@
       height: 73px !important;
       border-radius: 10px;
       width: 5px;
-      top: -76px !important;
+      top: -79px !important;
       left: 50%;
       background: var(--orange);
       opacity: 0.8;
@@ -1308,7 +1284,7 @@
       content: "";
       height: 140px;
       width: 5px;
-      top: -56.5% !important;
+      top: -57.5% !important;
       border-radius: 10px;
       left: 50%;
       opacity: 0.8;
@@ -1332,6 +1308,122 @@
       position: absolute;
     }
   }
+  
+}
+
+@media only screen and (min-width:"769px") and (max-width:"1022px"){
+  .navbar-desktop{
+    padding: 10px 40px;
+    
+    .social-media{
+      display: none;
+    }
+  }
+
+  .slider-container{
+    padding: 0 70px !important;
+
+    .slider-banner{
+      img{
+        height: 350px !important;
+      }
+    }
+  }
+
+  .section-3{
+    flex-direction: column;
+    height: 100%;
+    padding: 0 80px;
+
+    .text-steps{
+      width: 100%;
+      padding-top: 40px;
+    }
+
+    .steps{
+      margin: 0;
+      justify-content: center;
+      width: 100%;
+      gap: 20px;
+      div{
+        
+      }
+
+      .step-1{
+        position: relative;
+        top: 25px;
+        &::before{
+          content: "";
+          display: none;
+        }
+      }
+    
+      .step-2{
+        position: relative;
+        top: 25px;
+        &::before{
+          content: "";
+          display: none;
+        }
+      }
+    
+      .step-3{
+        position: relative;
+        top: 25px;
+        &::before{
+          content: "";
+          display: none;
+        }
+      }
+    }
+  }
+
+  .benefits-cards{
+    width: 85%;
+    // min-height: 280px;
+    padding: 0 20px;
+
+    .benefit-card{
+      div{
+        padding: 0;
+        
+      }
+      p{
+        font-size: 15px
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:"769px") and (max-width:"1200px"){
+
+  .slider-container{
+    padding: 0 100px;
+
+    .slider-banner{
+
+      img{
+        height: 400px;
+      }
+    }
+  }
+
+  .footer{
+    gap: 10px;
+  }
+  .footer-right{
+    grid-column: 3 / -1;
+  }
+  .footer-floating-card{
+    grid-column: 1;
+    // margin-right: 40px;
+  }
+  .card{
+    position: relative;
+    margin-left: 25px;
+  }
+
+  
 
   
 }
