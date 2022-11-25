@@ -1,7 +1,6 @@
 import React from 'react'
 import SocialMedia from '../components/SocialMedia'
 import {FiMapPin,FiClock} from "react-icons/fi"
-import {HiShare} from "react-icons/hi"
 import contactImg from "../images/contact.png"
 
 const ContactUs = () => {
@@ -19,15 +18,15 @@ const ContactUs = () => {
             <FiMapPin size="25px" />
             <div>
                 <h4>Nuestras oficinas</h4>
-                <p>Dirección de prueba, Panama</p>
+                <p>Direccion: Avenida Cuba, Edificio P.H. Don Tin a un costado del Municipio de Panamá</p>
             </div>
         </div>
         <div className='contact-attention contact-right-div'>
             <FiClock size="25px" />
             <div>
                 <h4>Horarios de Atención</h4>
-                <p>Lunes a Viernes: 8am - 8pm.</p>
-                <p>Sabados: 8am - 2pm</p>
+                <p>Lunes a Viernes: 8am - 5pm.</p>
+                <p>Sábados: Atención online durante todo el día.</p>
             </div>
         </div>
         <div className='contact-social contact-right-div'>

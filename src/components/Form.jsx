@@ -43,7 +43,7 @@ const Form = () => {
         <form className='contact-form' action="correos.php" method='POST' onSubmit={handleSubmit}>
         <Input type="text" name="nombre" label="Nombre" />
         <Input type="text" name="apellido" label="Apellido" />
-        <Input type="text" name="documento" label="Documento" />
+        {/* <Input type="text" name="documento" label="Documento" /> */}
         <Input type="text" name="correo" label="Correo" />
         <Input type="text" name="telefono" label="Teléfono" />
         <Input type="text" name="empresa" label="Empresa" />

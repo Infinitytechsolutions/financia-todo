@@ -36,7 +36,7 @@ const Questions = () => {
         <div>
             <p>Los requisitos son los siguientes:</p>
             <ol>
-                <li>Mínimo 3 meses laborando en su empleo actual.</li>
+                <li>Mínimo 12 meses laborando en su empleo actual.</li>
                 <li>Capacidad de descuento directo.</li>
             </ol>
         </div>
