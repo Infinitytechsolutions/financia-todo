@@ -25,6 +25,8 @@
     }
 }
 
+
+
 //navbar version de escritorio
 .navbar-desktop{
   display: flex;
@@ -131,6 +133,75 @@
 .active .menu-hambur:nth-child(3){
   transform: translateY(-6px)
   rotate(-135deg);
+}
+
+//slider2
+.slider-container2{
+  width: 100%;
+  padding: 0 150px;
+  position: relative;
+  display: flex;
+  .text-banner2{
+    // width: 50%;
+    display: flex !important;
+    flex-direction: column;
+    // height: 100%;
+    // align-items: center !important;
+    justify-content: center !important;
+    gap: 15px;
+      span{
+        color: var(--orange);
+      }
+      h2{
+        font-size: 40px;
+      }
+  
+      p{
+        font-size: 17px;
+        font-weight: 500;
+      }
+  
+      h3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+  }
+  
+  .slick-list{
+    height: 500px !important;
+    width: 550px !important;
+  }
+  .slick-arrow{
+    display: none !important;
+  }
+  .slider-banner2{
+    // width: 50%;
+    // height: 500px;
+    display: flex !important;
+    // align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+   
+    img{
+    height: 450px;
+    }
+
+    // .familia-2{
+    //   height: 350px !important;
+    // }
+    
+    .right-banner{
+      width: 50%;
+    }
+
+    
+    .test2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 //slider de imagenes
@@ -977,6 +1048,12 @@
       margin: 0 auto;
       line-height: 20px;
     }
+    h3{
+      width: 40%;
+      margin: 0 auto;
+      margin-bottom: 8px;
+      color: var(--orange);
+    }
   }
   .about-us-contact{
     display: flex;
@@ -1415,6 +1492,23 @@
     }
   }
 
+  
+
+  .slider-container2{
+    padding: 0 50px !important;
+
+    .slick-list{
+      width: 450px !important;
+    }
+
+    .slider-banner2{
+
+      img{
+        height: 400px !important;
+      }
+    }
+  }
+
   .footer{
     gap: 10px;
   }
@@ -1489,6 +1583,47 @@
 
 //Media para dispositivos moviles 
 @media only screen and (max-width:"768px"){
+
+  .slider-container2{
+    flex-direction: column;
+    padding: 20px 30px 0 30px;
+    text-align: center;
+    gap: 15px;
+
+    .right-banner{
+      display: flex;
+      justify-content: center;
+    }
+
+    .slick-list{
+      width: 290px !important;
+      height: 330px !important;
+    }
+    .text-banner2{
+      text-align: center;
+      width: 90%;
+      margin-top: 30px;
+        .text-banner-2{
+          text-transform: uppercase;
+        }
+    }
+
+    .slider-banner2{
+      img{
+        height: 290px;
+        margin: 0 auto;
+      }
+    }
+
+    h2{
+      font-size: 30px !important;
+    }
+
+    button{
+      margin: 0 auto;
+    }
+  }
+
 
   .footer-floating-card{
     .card{

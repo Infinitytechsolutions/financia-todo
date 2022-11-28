@@ -5,6 +5,7 @@ import banner1 from "../images/banner-1.png"
 import { Link } from 'react-router-dom'
 
 const SliderBanner = () => {
+
     const settings = {
         dots: true,
         infinite: true,
@@ -28,6 +29,7 @@ const SliderBanner = () => {
             <Link to="/solicitar-prestamo"><button className="button">Solicitalo ahora</button></Link>
             
           </div>
+          
           <img src="https://clinicasastre.es/wp-content/uploads/2019/12/doctor-png-images-free-download-nurse-png-png-of-a-doctor-904_870.png" alt="Imagen referencia financiatodo prestamos online" data-aos="fade-left" data-aos-duration="1500"/>
           
         </div>
