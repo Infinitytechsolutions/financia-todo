@@ -26,7 +26,7 @@ const SliderBanner2 = () => {
 
         <div className="text-banner2" data-aos="fade-right" data-aos-duration="1500">
                     <h2>TU PRESTAMO <span>IDEAL</span></h2>
-                    <p className="text-banner-2">Con grandes esfuerzos llegas a la meta, pide tu préstamo personal para renodelacion, auto, viajes, estudios, y más.</p>
+                    <p className="text-banner-2">Con grandes esfuerzos llegas a la meta, pide tu préstamo personal para remodelacion, auto, viajes, estudios, y más.</p>
                     <p>Aprobación en 24 horas y requisitos básicos.</p>
                     <Link to="/solicitar-prestamo"><button className="button">Solicitalo ahora</button></Link>     
         </div>
