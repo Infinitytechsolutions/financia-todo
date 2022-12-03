@@ -1,6 +1,6 @@
 <? php
-    $destinatario = 'edgarbp.dev@gmail.com';
-    $asunto = 'Solicitud de Prestamo ' . $nombre . $apellido;
+    $destinatario = 'info@financiatodopa.com';
+    $asunto = 'Contacto desde la web para Solicitud de Prestamo ' . $nombre . $apellido;
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
     $documento = $_POST['documento'];
